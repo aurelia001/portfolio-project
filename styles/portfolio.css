@@ -1,7 +1,11 @@
 :root {
-  --primary-font: "Playfair Display", serif;
-  --secondary-font: "Poppins", sans-serif;
+  --heading-font-familiy: "Playfair Display", serif;
+  --paragraph-font-family: "Poppins", sans-serif;
+  --branding-color: #6c63ff;
 }
 h1 {
-  font-family: var(--primary-font);
+  font-family: var(--heading-font-familiy);
+  font-size: 96px;
+  line-height: 128px;
+  color: #000000, 100%;
 }
