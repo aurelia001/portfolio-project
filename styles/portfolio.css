@@ -3,9 +3,40 @@
   --paragraph-font-family: "Poppins", sans-serif;
   --branding-color: #6c63ff;
 }
-h1 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--heading-font-familiy);
+  font-weight: bold;
+  color: black;
+}
+h1 {
   font-size: 96px;
-  line-height: 128px;
-  color: #000000, 100%;
+}
+
+p {
+  font-family: var(--paragraph-font-family);
+}
+.hero {
+  text-align: center;
+  background-color: #f9f7fe;
+}
+.hero p {
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: bold;
+  margin-top: 229px;
+}
+.hero h2 {
+  font-family: var(--paragraph-font-family);
+  font-size: 24px;
+  color: #272142;
+}
+.btn-branding {
+  background-color: var(--branding-color);
+  color: white;
+  border-radius: 4px;
+  padding: 18px 46px;
+  font-size: 18px;
 }
