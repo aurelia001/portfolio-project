@@ -14,13 +14,20 @@ h4 {
 h1 {
   font-size: 96px;
 }
-
+h2 {
+  font-size: 64px;
+  line-height: 85px;
+}
 p {
   font-family: var(--paragraph-font-family);
+  font-size: 16px;
+  line-height: 30px;
 }
+
 .hero {
   text-align: center;
   background-color: #f9f7fe;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -39,4 +46,35 @@ p {
   border-radius: 4px;
   padding: 18px 46px;
   font-size: 18px;
+}
+.btn-branding-outline {
+  border-radius: 4px;
+  padding: 18px 46px;
+  font-size: 18px;
+  color: var(--branding-color);
+  border: solid 1px var(--branding-color);
+}
+
+.weather-app-heading,
+.weather-app-picture {
+  margin-top: 250px;
+}
+.weather-app-description {
+  padding-left: 60px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 42px;
+  }
+  .hero {
+    padding: 30px 10px;
+  }
+
+  .weather-app-description {
+    text-align: center;
+    padding: 0;
+  }
+  .weather-app-heading {
+    font-size: 42px;
+  }
 }
