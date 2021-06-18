@@ -28,7 +28,7 @@ p {
 .hero {
   text-align: center;
   background-color: #f9f7fe;
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -50,6 +50,7 @@ p {
   font-size: 64px;
   line-height: 84px;
 }
+
 .content-container h2 {
   font-size: 18px;
   line-height: 27px;
@@ -63,7 +64,6 @@ p {
 }
 .content p {
   font-size: 14px;
-  line-height: 21px;
 }
 .btn-branding {
   background-color: var(--branding-color);
@@ -91,12 +91,18 @@ p {
   border-radius: 20px;
   max-width: 500px;
 }
+.active {
+  color: var(--branding-color) !important;
+  font-weight: 500;
+}
 
 @media (max-width: 900px) {
   h1 {
     font-size: 42px;
   }
-
+  .content h1 {
+    font-size: 32px;
+  }
   .hero {
     padding: 30px 10px;
   }
