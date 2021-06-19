@@ -102,6 +102,7 @@ nav li {
 }
 nav a {
   font-weight: 600;
+  font-size: 18px;
   color: #272142;
   transition: all 100ms ease-in-out;
 }
@@ -156,10 +157,5 @@ footer .contact-links a:hover {
   }
   .weather-app-heading {
     font-size: 42px;
-  }
-  .picture-of-me {
-    max-width: 300px;
-    display: block;
-    margin: 0 auto;
   }
 }
