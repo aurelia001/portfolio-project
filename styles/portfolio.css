@@ -28,7 +28,7 @@ p {
 .hero {
   text-align: center;
   background-color: #f9f7fe;
-  padding: 60px 20px;
+  padding: 30px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -42,16 +42,16 @@ p {
   font-size: 24px;
   color: #272142;
 }
-.content-container {
+.content {
   background-color: #f9f7fe;
-  padding: 160px 80px;
+  padding: 160px 20px;
 }
-.content-container h1 {
+.content h1 {
   font-size: 64px;
-  line-height: 84px;
+  line-height: 80px;
 }
 
-.content-container h2 {
+.content h2 {
   font-size: 18px;
   line-height: 27px;
   font-family: var(--paragraph-font-family);
@@ -90,18 +90,45 @@ p {
 .picture-of-me {
   border-radius: 20px;
   max-width: 500px;
+  margin-top: 140px;
 }
 .active {
   color: var(--branding-color) !important;
   font-weight: 500;
 }
-
+footer h4 {
+  font-size: 48px;
+}
+footer .email-link {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: black;
+  font-size: 28px;
+  transition: 150ms ease-in-out;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .contact-links a {
+  color: var(--branding-color);
+  font-size: 18px;
+  margin: 20px;
+  padding: 14px 20px;
+  border-radius: 50%;
+  transition: 150ms ease-in-out;
+}
+footer .contact-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 42px;
   }
   .content h1 {
     font-size: 32px;
+    line-height: 60px !important;
   }
   .hero {
     padding: 30px 10px;
