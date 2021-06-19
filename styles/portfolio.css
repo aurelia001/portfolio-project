@@ -42,6 +42,7 @@ p {
   font-size: 24px;
   color: #272142;
 }
+
 .content {
   background-color: #f9f7fe;
   padding: 160px 20px;
@@ -92,9 +93,25 @@ p {
   max-width: 500px;
   margin-top: 140px;
 }
-.active {
+.launch-project-button {
+  display: block;
+  margin: 0 auto;
+}
+nav li {
+  margin-left: 20px;
+}
+nav a {
+  font-weight: 450;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+.active,
+nav a:hover {
   color: var(--branding-color) !important;
   font-weight: 500;
+}
+footer .contact-box {
+  padding: 30px 120px;
 }
 footer h4 {
   font-size: 48px;
