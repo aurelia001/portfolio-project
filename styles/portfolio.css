@@ -101,14 +101,13 @@ nav li {
   margin-left: 20px;
 }
 nav a {
-  font-weight: 450;
+  font-weight: 600;
   color: #272142;
   transition: all 100ms ease-in-out;
 }
 .active,
 nav a:hover {
   color: var(--branding-color) !important;
-  font-weight: 500;
 }
 footer .contact-box {
   padding: 30px 120px;
