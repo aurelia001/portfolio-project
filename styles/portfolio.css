@@ -143,6 +143,9 @@ footer .contact-links a:hover {
   h1 {
     font-size: 42px;
   }
+  .content {
+    padding: 40px;
+  }
   .content h1 {
     font-size: 32px;
     line-height: 60px !important;
@@ -157,5 +160,10 @@ footer .contact-links a:hover {
   }
   .weather-app-heading {
     font-size: 42px;
+  }
+  .picture-of-me {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
   }
 }
